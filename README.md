@@ -58,7 +58,7 @@ RAG_Fundamentales/
 └── .env                    # Variables sensibles (ignoré par Git)
 ```
 
-## 🚀 Utilisation
+## Utilisation
 
 1. Lancez Jupyter :
 
@@ -71,7 +71,7 @@ uv run jupyter notebook RAGV2.ipynb
    - **Recherche** : entrez une question, elle est transformée en vecteur et comparée aux chunks.
    - **Génération** : le contexte récupéré + la question sont envoyés à l’API Open Router via LangChain pour obtenir une réponse.
 
-## 🎛️ Personnalisation
+## Personnalisation
 
 - **Modèle d’embedding** : vous pouvez changer le modèle dans le notebook (actuellement `thenlper/gte-large`).
 - **Taille des chunks** : ajustez `chunk_size` et `chunk_overlap` selon vos besoins.
