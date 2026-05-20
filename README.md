@@ -1,4 +1,3 @@
-```markdown
 # Système RAG (Retrieval-Augmented Generation)
 
 Ce projet implémente un pipeline complet de **RAG** (génération augmentée par récupération) : indexation de documents, recherche vectorielle et génération de réponse basée sur un contexte pertinent, le tout orchestré avec **LangChain** et une base vectorielle **ChromaDB**.
@@ -52,10 +51,13 @@ OPEN_ROUTER_API_KEY=votre-clé-ici
 
 ```
 RAG_Fundamentales/
-├── pyproject.toml          # Dépendances officielles
-├── RAGV2.ipynb             # Notebook principal contenant le pipeline
-├── README.md               # Ce fichier
-└── .env                    # Variables sensibles (ignoré par Git)
+├── .gitignore                  # Fichiers et dossiers ignorés par Git
+├── .python-version             # Version Python (pour pyenv)
+├── pyproject.toml              # Dépendances officielles
+├── README.md                   # Documentation
+├── RAGV2.ipynb                 # Notebook principal contenant le pipeline
+├── pdfs/                       # Dossier pour les documents PDF source
+└── store/                      # Persistance de la base vectorielle ChromaDB (son contenu est créé automatiquement)
 ```
 
 ## Utilisation
@@ -98,5 +100,23 @@ Les suggestions et pull requests sont les bienvenues. Pour signaler un bug, ouvr
 
 ---
 
+### 👨‍💻 Auteur
+
+Khadija Bossony  
+https://github.com/indexkboss  
+
+Projet réalisé dans le cadre d’un apprentissage du RAG avec Python.
+
+---
+
+### 🙏 Crédits
+
+Ce projet s’inspire d’une vidéo YouTube réalisée par le Professeur Mohamed YOUSSFI.
+
+Vidéo source : https://www.youtube.com/watch?v=j-C9vyyXwTw
+
+Les exemples ont été reproduits, testés et adaptés avec l'API d'Open Router.
+
+---
+
 Développé avec ❤️ pour le cours **RAG_fundamentals**.
-```
